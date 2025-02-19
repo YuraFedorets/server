@@ -9,13 +9,13 @@ const server = createServer((req, res) => {
   switch (reqUrl.pathname) {
     case '/': {
         res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end('Hello World!\n');
+        res.end('Продаю банани, людей!\n');
         break;
     }
     
     case '/user': {
         res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end('User\n');
+        res.end('Шучу не банани\n');
         break;
     }
     
